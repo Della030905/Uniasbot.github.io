@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="unias.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Helpdesk | Universitas Nias</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="desc">
+            <button id="init"><i class="fa fa-comment"></i></button>
+        </div>
+    </div>
+    <div id="test" style="position: fixed; top: 4rem; right: 8rem; display: none;">
+        <div class="child" id="chatbot">
+            <div class="header">
+                <div class="h-child">
+                    <img src="./chatbot-icon.png" alt="avatar" id="avatar">
+                    <div>
+                        <span class="name">Unias Bot</span>
+                        <br>
+                        <span style="color:lawngreen">online</span>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <button class="backBtn">&#9664;</button>
+                    <button class="exitBtn" onclick="closeChat()"> <i class="fa fa-times"></i></button>
+                </div>
+            </div>
+            <div id="chat-box"></div>
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
