@@ -271,6 +271,9 @@ body {
     transform: scale(1.2); /* Perbesar konten sebesar 20% */
 }
 @media only screen and (max-width: 600px) {
+    body {
+        background-size: contain;
+    }
     #chatbot {
         width: 100%;
         height: 80%;
