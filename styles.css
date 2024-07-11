@@ -263,7 +263,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     body {
-        background-image: url('mobile.png'); /* Ganti dengan jalur ke gambar mobile */
+        background-image: url(mobile.png); /* Ganti dengan jalur ke gambar mobile */
         background-size: contain; /* Menjaga gambar tetap dalam proporsi dan sepenuhnya terlihat di layar kecil */
         background-position: center; /* Posisikan gambar di tengah */
     }
